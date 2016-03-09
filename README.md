@@ -46,5 +46,5 @@ The API returns JSON (for now).
 # Performance
 
 ## Start performance
-![start](http://linda2912.github.io/readmeImg/home_1basic.png)
+![start](/readmeImg/Home_0basic.png)
 ## Semantische & efficiënte HTML
