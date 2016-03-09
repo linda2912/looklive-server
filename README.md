@@ -42,3 +42,9 @@ appearance id.
 product id.
 
 The API returns JSON (for now).
+
+# Performance
+
+## Start performance
+![start](http://linda2912.github.io/readmeImg/home_1basic.png)
+## Semantische & efficiënte HTML
