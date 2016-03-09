@@ -50,7 +50,7 @@ The API returns JSON (for now).
 
 ### Semantic & efficient HTML 
 * Unnecessary HTML elements deleted
-* Deleted not used google font's
+* Unnecessary google font's deleted
 
 Result:
 ![start](/readmeImg/Home_1afterHtmlFix.png)
