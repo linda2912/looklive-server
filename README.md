@@ -45,6 +45,28 @@ The API returns JSON (for now).
 
 # Performance
 
-## Start performance
+### Start performance
 ![start](/readmeImg/Home_0basic.png)
-## Semantische & efficiënte HTML
+
+### Semantic & efficient HTML 
+* Unnecessary HTML elements deleted
+* Deleted not used google font's
+
+Result:
+![start](/readmeImg/Home_1afterHtmlFix.png)
+
+### optimized CSS
+* Flexbox instead of float
+* Minimized selectors
+* Header img minimized to 90kb
+* Img srcset added to the header img
+* Icons changes to SVG
+
+Result:
+![start](/readmeImg/Home_2afterCss.png)
+
+### jQuery
+* jQuery vervangen door Javascript Vanilla 
+
+Result:
+![start](/readmeImg/Home_4afterJquery.png)
