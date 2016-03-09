@@ -53,7 +53,7 @@ The API returns JSON (for now).
 * Unnecessary google font's deleted
 
 Result:
-![start](/readmeImg/Home_1afterHtmlFix.png)
+![start](/readmeImg/Home_1afterHtml.png)
 
 ### optimized CSS
 * Flexbox instead of float
