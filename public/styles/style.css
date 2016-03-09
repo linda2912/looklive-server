@@ -13,6 +13,7 @@ body {
     padding: .5em 1em;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 [role="navigation"] img {
@@ -39,6 +40,13 @@ body {
 
 .nav-items img {
     height: 1em;
+    position: relative;
+    margin-right: .3em;
+}
+
+.nav-items svg {
+    fill: white;
+    height: 1.2em;
     position: relative;
     margin-right: .3em;
 }
