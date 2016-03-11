@@ -74,7 +74,7 @@ Result:
 
 ### Optimize CSS animation with the will-change property
 
-I added some animations to the CSS
+I added some animations to the CSS like this:
 
 ```
 .shows{
