@@ -42,3 +42,31 @@ appearance id.
 product id.
 
 The API returns JSON (for now).
+
+# Performance
+
+### Start performance
+![start](/readmeImg/Home_0start.png)
+
+### Semantic & efficient HTML 
+* Unnecessary HTML elements deleted
+* Unnecessary google font's deleted
+
+Result:
+![start](/readmeImg/Home_1afterHtml.png)
+
+### optimized CSS
+* Flexbox instead of float
+* Minimized selectors
+* Header img minimized to 90kb
+* Img srcset added to the header img
+* Icons changes to SVG
+
+Result:
+![start](/readmeImg/Home_2afterCss.png)
+
+### jQuery
+* jQuery vervangen door Javascript Vanilla 
+
+Result:
+![start](/readmeImg/Home_4afterJquery.png)
