@@ -55,7 +55,7 @@ The API returns JSON (for now).
 Result:
 ![start](/readmeImg/Home_1afterHtml.png)
 
-### optimized CSS
+### Optimized CSS
 * Flexbox instead of float
 * Minimized selectors
 * Header img minimized to 90kb
@@ -70,3 +70,33 @@ Result:
 
 Result:
 ![start](/readmeImg/Home_4afterJquery.png)
+
+
+### Optimize CSS animation with the will-change property
+
+I added some animations to the CSS
+
+```
+.shows{
+    animation: shows 2s cubic-bezier(.58,1.84,.83,.67);
+}
+
+@keyframes shows {
+    0% {
+        transform: translateY(-100vw);
+    }
+    60% {
+        transform: translateY(0);
+    }
+}
+```
+Results:
+![transforms](/readmeImg/transform.png)
+
+I used the ``` will-change ``` property
+
+Results:
+
+![will-change](/readmeImg/transformWillChange.png)
+
+
