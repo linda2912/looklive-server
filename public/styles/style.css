@@ -255,7 +255,6 @@ h2 {
 .logo {
     animation: logo 2s cubic-bezier(.58,1.84,.83,.67);
     will-change: transform;
-    will-change: transform;
 }
 
 @keyframes logo {

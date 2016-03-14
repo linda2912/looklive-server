@@ -89,9 +89,12 @@ I added some different animations like this:
         transform: translateY(0);
     }
 }
+
 ```
+Tested on an 3G network
+
 Results:
-![transforms](/readmeImg/transform.png)
+![transforms](/readmeImg/nowillchange.png)
 
 I used the ``` will-change ``` property
 
@@ -110,9 +113,10 @@ I used the ``` will-change ``` property
     }
 }
 ```
+Tested on an 3G network
 
 Results:
 
-![will-change](/readmeImg/transformWillChange.png)
+![will-change](/readmeImg/willchange.png)
 
 
