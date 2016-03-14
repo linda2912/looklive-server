@@ -52,7 +52,7 @@ The API returns JSON (for now).
 * Unnecessary HTML elements deleted
 * Unnecessary google font's deleted
 
-Result:
+Results:
 ![start](/readmeImg/Home_1afterHtml.png)
 
 ### Optimized CSS
@@ -62,13 +62,13 @@ Result:
 * Img srcset added to the header img
 * Icons changes to SVG
 
-Result:
+Results:
 ![start](/readmeImg/Home_2afterCss.png)
 
 ### jQuery
 * jQuery vervangen door Javascript Vanilla 
 
-Result:
+Results:
 ![start](/readmeImg/Home_4afterJquery.png)
 
 
