@@ -95,7 +95,7 @@ Results:
 
 I used the ``` will-change ``` property
 
-Results:.
+Results:
 
 ![will-change](/readmeImg/transformWillChange.png)
 
