@@ -91,7 +91,8 @@ I added some different animations like this:
 }
 
 ```
-Tested on an 3G network
+
+*Tested on an 3G network*
 
 Results:
 ![transforms](/readmeImg/nowillchange.png)
@@ -113,7 +114,7 @@ I used the ``` will-change ``` property
     }
 }
 ```
-Tested on an 3G network
+*Tested on an 3G network*
 
 Results:
 
