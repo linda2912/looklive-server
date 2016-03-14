@@ -95,6 +95,22 @@ Results:
 
 I used the ``` will-change ``` property
 
+```
+.shows{
+    animation: shows 2s cubic-bezier(.58,1.84,.83,.67);
+    will-change: transform;
+}
+
+@keyframes shows {
+    0% {
+        transform: translateY(-100vw);
+    }
+    60% {
+        transform: translateY(0);
+    }
+}
+```
+
 Results:
 
 ![will-change](/readmeImg/transformWillChange.png)
