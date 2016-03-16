@@ -54,12 +54,12 @@ The API returns JSON (for now).
 
 Results:
 ![start](/readmeImg/Home_1afterHtml.png)
-
-| Loading   | - 8ms     |
-| Scripting | - 33ms    |
-| Rendering | + 33ms    |
-| Painting  | - 14ms    |
-
+``` **
+ Loading    - 8ms     
+ Scripting  - 33ms    
+ Rendering  + 33ms    
+ Painting   - 14ms **  
+```
 
 ### Optimized CSS
 * Flexbox instead of float
