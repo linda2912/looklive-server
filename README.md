@@ -58,7 +58,9 @@ Results:
  Loading    - 8ms     
  Scripting  - 33ms    
  Rendering  + 33ms    
- Painting   - 14ms   
+ Painting   - 14ms
+
+ Total      - 22ms
 ```
 
 ### Optimized CSS
@@ -75,10 +77,12 @@ Loading      - 11ms
 Scripting    + 1ms
 Rendering    - 38ms
 Painting     + 1ms
+
+Total        - 47ms
 ```
 
 ### jQuery
-* jQuery vervangen door Javascript Vanilla 
+* jQuery replaced by Javascript Vanilla 
 
 Results:
 ![start](/readmeImg/Home_4afterJquery.png)
@@ -142,4 +146,19 @@ Scripting    - 14ms
 Rendering    - 9ms
 Painting     - 7ms
 ```
+
+###Conclusion
+
+```
+Semantic & efficient HTML                                - 22ms
+Optimized css                                            - 47ms
+jQuery replaced by Javascript Vanilla                    - 104ms
+Optimize CSS animation with the will-change property     - 33ms
+
+Total win                                                - 206ms  
+```
+
+
+
+
 
