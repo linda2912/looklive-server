@@ -55,6 +55,11 @@ The API returns JSON (for now).
 Results:
 ![start](/readmeImg/Home_1afterHtml.png)
 
+Loading | - 8ms
+Scripting | - 33ms
+Rendering | + 33ms
+Painting | - 1ms
+
 ### Optimized CSS
 * Flexbox instead of float
 * Minimized selectors
@@ -64,13 +69,20 @@ Results:
 
 Results:
 ![start](/readmeImg/Home_2afterCss.png)
+Loading | - 11ms
+Scripting | + 1ms
+Rendering | - 38ms
+Painting | + 1ms
 
 ### jQuery
 * jQuery vervangen door Javascript Vanilla 
 
 Results:
 ![start](/readmeImg/Home_4afterJquery.png)
-
+Loading | - 5ms
+Scripting | - 100ms
+Rendering | + 3ms
+Painting | - 2ms
 
 ### Optimize CSS animation with the will-change property
 
@@ -119,5 +131,10 @@ I used the ``` will-change ``` property
 Results:
 
 ![will-change](/readmeImg/willchange.png)
+
+Loading | - 3ms
+Scripting | - 14ms
+Rendering | - 9ms
+Painting | 7 1ms
 
 
