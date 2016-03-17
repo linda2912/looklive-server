@@ -120,4 +120,8 @@ Results:
 
 ![will-change](/readmeImg/willchange.png)
 
+### Service Worker implemented
+
+Results:
+
 
