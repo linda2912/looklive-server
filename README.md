@@ -54,6 +54,14 @@ The API returns JSON (for now).
 
 Results:
 ![start](/readmeImg/Home_1afterHtml.png)
+``` 
+ Loading    - 8ms     
+ Scripting  - 33ms    
+ Rendering  + 33ms    
+ Painting   - 14ms
+
+ Total      - 22ms
+```
 
 ### Optimized CSS
 * Flexbox instead of float
@@ -64,13 +72,26 @@ Results:
 
 Results:
 ![start](/readmeImg/Home_2afterCss.png)
+```
+Loading      - 11ms
+Scripting    + 1ms
+Rendering    - 38ms
+Painting     + 1ms
+
+Total        - 47ms
+```
 
 ### jQuery
-* jQuery vervangen door Javascript Vanilla 
+* jQuery replaced by Javascript Vanilla 
 
 Results:
 ![start](/readmeImg/Home_4afterJquery.png)
-
+```
+Loading      - 5ms
+Scripting    - 100ms
+Rendering    + 3ms
+Painting     - 2ms
+```
 
 ### Optimize CSS animation with the will-change property
 
@@ -119,9 +140,34 @@ I used the ``` will-change ``` property
 Results:
 
 ![will-change](/readmeImg/willchange.png)
+```
+Loading      - 3ms
+Scripting    - 14ms
+Rendering    - 9ms
+Painting     - 7ms
+```
 
 ### Service Worker implemented
 
 Results:
+
+###Conclusion
+
+```
+Semantic & efficient HTML                                - 22ms
+Optimized css                                            - 47ms
+jQuery replaced by Javascript Vanilla                    - 104ms
+Optimize CSS animation with the will-change property     - 33ms
+
+Total win                                                - 206ms  
+```
+
+
+
+
+
+
+
+
 
 
