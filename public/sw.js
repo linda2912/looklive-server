@@ -1,3 +1,5 @@
+console.log('started ServiceWorker');
+
 this.addEventListener('install', event => {
   event.waitUntil(
     caches.open('looklive-v1').then(cache => {

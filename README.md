@@ -147,9 +147,6 @@ Rendering    - 9ms
 Painting     - 7ms
 ```
 
-### Service Worker implemented
-
-Results:
 
 ###Conclusion
 
@@ -161,6 +158,36 @@ Optimize CSS animation with the will-change property     - 33ms
 
 Total win                                                - 206ms  
 ```
+
+### Service Worker implemented
+
+*Tested on an 4G network*
+
+Results without Service Worker:
+![without service worker](/readmeImg/zonderSW.png)
+
+Results with Service Worker for the first time:
+![Results with Service Worker for the first time](/readmeImg/metSW1.png)
+
+Results with Service Worker for the second time (Service Worker saved html, css, app.js, header imgage, logo)
+![Results with Service Worker for the second time] (/readmeImg/metSW2.png)
+
+### Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
