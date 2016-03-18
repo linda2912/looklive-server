@@ -174,10 +174,12 @@ Results with Service Worker for the second time (Service Worker saved html, css,
 
 ### Conclusion
 
+```
+Results without Service Worker takes:                       12s
+Results with Service Worker for the first time takes:       16s
+Results with Service Worker for the second time takes:      2.63s!!
 
-
-
-
+```
 
 
 
