@@ -161,7 +161,7 @@ Total win                                                - 206ms
 
 # Service Worker implemented
 
-[looklive online](http://188.166.4.224:3000/)
+[looklive online](https://looklive.lindavandijkdesign.nl/)
 
 *Tested on an 4G network*
 
