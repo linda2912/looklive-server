@@ -159,7 +159,7 @@ Optimize CSS animation with the will-change property     - 33ms
 Total win                                                - 206ms  
 ```
 
-### Service Worker implemented
+# Service Worker implemented
 
 [looklive online](http://188.166.4.224:3000/)
 
