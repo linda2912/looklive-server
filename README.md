@@ -161,6 +161,8 @@ Total win                                                - 206ms
 
 ### Service Worker implemented
 
+[looklive online](http://188.166.4.224:3000/)
+
 *Tested on an 4G network*
 
 Results without Service Worker:
@@ -175,10 +177,9 @@ Results with Service Worker for the second time (Service Worker saved html, css,
 ### Conclusion
 
 ```
-Results without Service Worker takes:                       12s
-Results with Service Worker for the first time takes:       16s
-Results with Service Worker for the second time takes:      2.63s!!
-
+Without Service Worker load time:                       12s
+With Service Worker for the first time load time:       16s
+With Service Worker for the second time load time:      2.63s!!
 ```
 
 
