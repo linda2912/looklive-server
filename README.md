@@ -177,9 +177,9 @@ Results with Service Worker for the second time (Service Worker saved html, css,
 ### Conclusion
 
 ```
-Without Service Worker load time:                       12s
-With Service Worker for the first time load time:       16s
-With Service Worker for the second time load time:      2.63s!!
+Without Service Worker load time:                                       12s
+With Service Worker for the first time(nothing saved) load time:        16s
+With Service Worker for the second time(everything saved) load time:    2.63s!!
 ```
 
 
