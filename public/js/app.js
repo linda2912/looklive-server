@@ -15,6 +15,15 @@
         }
     }
 
+    function serviceworker() {
+
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js', { scope: './' })
+            .then(reg => console.info('registered sw', reg))
+            .catch(err => console.error('error registering sw', err));
+        }
+    }
+
     /**
      * Set the classes on the appearence page.
      *
@@ -55,6 +64,7 @@
         if (/appearance/.test(window.location.href)) {
             appearance();
         }
+        serviceworker();
     });
 }());
 
