@@ -19,6 +19,8 @@ Bronnen
 * [https://css-tricks.com/gulp-for-beginners/](https://css-tricks.com/gulp-for-beginners/)
 * [https://cdnify.com/blog/top-10-gulp-tasks-for-optimising-front-end-performance/](https://cdnify.com/blog/top-10-gulp-tasks-for-optimising-front-end-performance/)
 
+###Gestest op een 4G netwerk
+
 ## Opdracht 2. Optimaliseer HTTP requests
 
 Met behulp van Gulp heb ik de JavaScript minified
@@ -68,4 +70,5 @@ Na:
 
 ## Conclusie
 
-Zoals te zien is heeft het wel degelijk zin om scripts minified te maken en images en web fonts te optimaliseren . In dit project is het verschil minimaal, maar bij een groter project zal het verschil ook groter zijn. 
+Zoals te zien is heeft het wel degelijk zin om scripts minified te maken en images en web fonts te optimaliseren. In dit project is het verschil minimaal, maar bij een groter project zal het verschil ook groter zijn. 
+
