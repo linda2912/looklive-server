@@ -2,8 +2,10 @@
 <html>
     <head>
         <title>{{title}}</title>
+        
         <link rel='stylesheet' href='/styles/style.css' />
-        <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,700' rel='stylesheet' type='text/css'>
+        
+        <!-- <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,700' rel='stylesheet' type='text/css'> -->
     </head>
     <body>
 
@@ -74,18 +76,19 @@
 
         <header role="heading">
             <img 
-                src="/images/header500.jpg" 
+                src="/dist/images/header500.jpg" 
                 sizes="(min-width: 200px)" 
-                srcset="/images/header500.jpg 500w,
-                        /images/header1000.jpg 1000w, 
-                        /images/header.jpg 1800w">
+                srcset="/dist/images/header500.jpg 500w,
+                        /dist/images/header1000.jpg 1000w, 
+                        /dist/images/header.jpg 1800w">
         </header>
 
         <div class="inner-wrapper">
             {{{body}}}
         </div>
-
-        <script src="/js/app.js"></script>
+        
+        <script src="/dist/app.js"></script>
+        
     </body>
 </html>
 
