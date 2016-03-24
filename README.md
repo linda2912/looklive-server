@@ -105,4 +105,5 @@ Optimaliseer web fonts									- 599ms
 ```
 [Onderzoeksresultaten hierboven](https://github.com/linda2912/looklive-server/tree/gulp/linda)
 
+### Advies
 Mijn advies naar Looklive is maak gebruik van een Service Worker en optimaliseer zoveel mogelijk met Gulp (of een andere taskmanager). Het is te veel werk voor weinig resultaat om het met de hand te doen, maar als het automatisch gaat dan is het zeker zinvol als je met grote grote projecten bezig bent.
