@@ -68,7 +68,41 @@ Na:
 
 ![js](readmeImg/font3.png)
 
-## Conclusie
+## Conclusie taskmanagers
 
 Zoals te zien is heeft het wel degelijk zin om scripts minified te maken en images en web fonts te optimaliseren. In dit project is het verschil minimaal, maar bij een groter project zal het verschil ook groter zijn. 
 
+# Eind conclusie samenvatting
+
+```
+Optimize [Gestest op Snele internet verbinding]
+
+Semantic & efficient HTML                                - 22ms
+Optimized css                                            - 47ms
+jQuery replaced by Javascript Vanilla                    - 104ms
+Optimize CSS animation with the will-change property     - 33ms
+
+```
+[Onderzoekresultaten](https://github.com/linda2912/looklive-server/tree/student/linda)
+
+```
+Service Worker [Getest op 4G]
+
+Without Service Worker load time: 12s
+Service Worker implemented load time: 16s
+With Service Worker load time: 2.63s
+
+Totaal													- 9.37s
+```
+[Onderzoekresultaten](https://github.com/linda2912/looklive-server/tree/serviceWorker/linda)
+
+```
+Gulp [Gestest op 4G]
+
+Optimaliseer HTTP requests								- 30ms
+Optimaliseer content images								- 23ms
+Optimaliseer web fonts									- 599ms
+```
+[Onderzoeksresultaten hierboven](https://github.com/linda2912/looklive-server/tree/gulp/linda)
+
+Mijn advies naar Looklive is maak gebruik van een Service Worker en optimaliseer zoveel mogelijk met Gulp (of een andere taskmanager). Het is te veel werk voor weinig resultaat om het met de hand te doen, maar als het automatisch gaat dan is het zeker zinvol als je met grote grote projecten bezig bent.
