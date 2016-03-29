@@ -114,6 +114,6 @@ After:
 ### Advies
 Mijn advies naar Looklive toe is 
 * Optimaliseer zoveel mogelijk met Gulp (of een andere taskmanager). Het is te veel werk voor weinig resultaat om het met de hand te doen, maar als het automatisch gaat dan is het zeker zinvol als je met grote grote projecten bezig bent.
-* Zorg voor een first meaningful render door middel van critical CSS zodat de gebruiker zo snel mogelijk iets op de pagina ziet.
-* Maak gebruik van paging zodat niet alle afbeeldingen tegelijk ingeladen worden.
+* Zorg voor een first meaningful render door middel van critical CSS te gebruiken zodat de gebruiker zo snel mogelijk iets op de pagina ziet.
+* Maak gebruik van paging of lazy loading zodat niet alle afbeeldingen tegelijk ingeladen worden. Op deze manier wordt de pagina veel sneller geladen en misschien wilt de gebruiker wel alleen de eerste 5 afbeeldingen zien.
 
