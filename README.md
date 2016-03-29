@@ -105,5 +105,15 @@ Optimaliseer web fonts									- 599ms
 ```
 [Onderzoeksresultaten hierboven](https://github.com/linda2912/looklive-server/tree/gulp/linda)
 
+#####Meaningful rendering
+Before:
+![](readmeImg/screenshot1)
+After:
+![](readmeImg/screenshot2)
+
 ### Advies
-Mijn advies naar Looklive toe is maak gebruik van een Service Worker en optimaliseer zoveel mogelijk met Gulp (of een andere taskmanager). Het is te veel werk voor weinig resultaat om het met de hand te doen, maar als het automatisch gaat dan is het zeker zinvol als je met grote grote projecten bezig bent.
+Mijn advies naar Looklive toe is 
+* optimaliseer zoveel mogelijk met Gulp (of een andere taskmanager). Het is te veel werk voor weinig resultaat om het met de hand te doen, maar als het automatisch gaat dan is het zeker zinvol als je met grote grote projecten bezig bent.
+* Zorg voor een first meaningful render door middel van critical CSS zodat de gebruiker zo snel mogelijk iets op de pagina ziet.
+* Maak gebruik van paging zodat niet alle afbeeldingen tegelijk ingeladen worden.
+
