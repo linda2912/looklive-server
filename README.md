@@ -107,9 +107,9 @@ Optimaliseer web fonts									- 599ms
 
 #####Meaningful rendering
 Before:
-![](readmeImg/screenshot1.png)
+![](readmeImg/screenshots1.png)
 After:
-![](readmeImg/screenshot2.png)
+![](readmeImg/screenshots2.png)
 
 ### Advies
 Mijn advies naar Looklive toe is 
