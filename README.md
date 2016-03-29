@@ -105,7 +105,7 @@ Optimaliseer web fonts									- 599ms
 ```
 [Onderzoeksresultaten hierboven](https://github.com/linda2912/looklive-server/tree/gulp/linda)
 
-#####Meaningful rendering
+#####Meaningful rendering (4G)
 Before:
 ![](readmeImg/screenshots1.png)
 After:
